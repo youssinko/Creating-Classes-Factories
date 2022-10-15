@@ -71,7 +71,7 @@ const animal = new Hamster('Rania','yousef')
 //      }
      
 //         }
-// // let hamsterPet = Hamster
+
 // const kathy = new Person('kathy',34,160,134,'','',500)
 
 // kathy.buyHamster(animal)        
@@ -152,3 +152,47 @@ timmy.ageUp1()
 timmy.eating1()
 timmy.exercising1()
 timmy.buyHamster1(newHamster)
+//=================================== Chef Make Dinners ==============
+class Dinner{
+    constructor(appetizer, entree,dessert){
+        this.appetizer = appetizer,
+        this.entree = entree,
+        this.dessert = dessert
+    }
+    
+}
+class Chef{
+    // constructor(appetizer,entree,dessert,dinner){   
+    //     this.appetizer = appetizer,
+    //     this.entree = entree,
+    //     this.dessert = dessert
+    //     this.dinner =[]
+
+    // }
+ makingDinner(app,entre,desse){
+    const menu = new Dinner(app,entre,desse)
+    console.log(menu)
+    //this.dinner.push(menu)
+    //return menu
+ }  
+
+}
+const chefOne = new Chef
+chefOne.makingDinner('Greek salad','filet mignon','cheeseCake')
+chefOne.makingDinner('soup','shrimp Pasta','choclate cake')
+chefOne.makingDinner('spring rolls', 'chicken fajita', 'ice-Cream')
+//const day1 = new Chef('Greek salad','filet mignon','cheeseCake')
+
+// const day2 = new Chef('soup','shrimp Pasta','choclate cake')
+// const day3 = new Chef('spring rolls', 'chicken fajita', 'ice-Cream')
+
+//console.log(this.dinner)
+//day1.makingDinner()
+// console.log(day1.makingDinner())
+ //console.log(day1)
+// console.log(day2)
+// console.log(day3)
+
+
+
+
